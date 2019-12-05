@@ -1,0 +1,89 @@
+:root{
+    --color-primary: #6e2142;
+    --color-light: #943855;
+    --color-warm: #e16363;
+    --color-bright: #271a05;
+    --color-blacks: #a02755;
+}
+
+html{
+    background: url('./img/background.png');
+    font-family: 'Acme', sans-serif;
+    width: 100vw;
+}
+main{
+    font-family: 'Amatic SC', cursive;
+}
+
+
+/* #region --- Nav --- */
+nav{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 1rem;
+}
+.navBtn{
+    background-color: transparent;
+    border-width: 1px;
+    border-radius: 5px;
+}
+.navBtn__img{
+    width: 4rem;
+}
+/* #endregion --- Nav --- */
+
+
+/* #region --- Brand --- */
+.brand{
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.brand__head, .brand__subtitle{
+    color: var(--color-primary);
+    margin: 0 !important;
+}
+.brand__head{
+    font-size: 4.2rem;
+    /* letter-spacing: .2em; */
+}
+.brand__subtitle{
+    font-size: 2.2rem;
+    font-family: 'Amatic SC', cursive;
+    margin-top: -.75em !important;
+}
+/* #endregion --- Brand --- */
+
+.search{
+    font-family: 'Acme', sans-serif;
+    color: #5a5a5a;
+    letter-spacing: 0.1em;
+
+    box-sizing: border-box;
+    border-radius: 5px;
+    border-width: 1px;
+    width: 90vw;
+    margin: 2.5vw;
+    margin-bottom: 1rem;
+    padding: .4rem;
+}
+
+.indexCategory{
+    margin-bottom: 2rem;
+    width: 100vw;
+    height: 30vh;
+
+    background: url('./img/FruitVeg_Box.jpg');
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.indexCategory__btn{
+    /* margin: 1rem; */
+    width: max-content;
+}
