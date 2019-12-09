@@ -10,6 +10,11 @@ html{
     background: url('./img/background.png');
     font-family: 'Acme', sans-serif;
     width: 100vw;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    width: 100vw;
 }
 main{
     font-family: 'Amatic SC', cursive;
@@ -64,7 +69,7 @@ nav{
     border-radius: 5px;
     border-width: 1px;
     width: 90vw;
-    margin: 2.5vw;
+    margin: 5vw;
     margin-bottom: 1rem;
     padding: .4rem;
 }
@@ -84,6 +89,13 @@ nav{
     justify-content: center;
 }
 .indexCategory__btn{
+    font-family: 'Amatic SC', cursive;
+    font-size: 2rem;
+    border-width: 1px;
+    border-radius: 5px;
+    color: white;
+    background-color: transparent;
     /* margin: 1rem; */
     width: max-content;
+    padding: 1em;
 }
