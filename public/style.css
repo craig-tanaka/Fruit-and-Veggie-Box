@@ -79,7 +79,7 @@ nav{
     width: 100vw;
     height: 30vh;
 
-    background: url('./img/FruitVeg_Box.jpg');
+    background: url('./img/fruitbox.jpg');
     background-size: cover;
     background-position: center;
 
@@ -91,10 +91,10 @@ nav{
 .indexCategory__btn{
     font-family: 'Amatic SC', cursive;
     font-size: 2rem;
-    border-width: 1px;
+    border: none;
     border-radius: 5px;
     color: white;
-    background-color: transparent;
+    background-color: #e16363a0;
     /* margin: 1rem; */
     width: max-content;
     padding: 1em;
