@@ -117,8 +117,9 @@ nav {
 
 #page-index__create-link,
 #page-index__boxes-link {
-    font-family: 'Amatic SC', cursive;
-    font-size: 1rem;
+    text-decoration: none;
+    font-family: 'Acme', sans-serif;
+    font-size: 1.2rem;
     border: none;
     border-radius: 5px;
     color: white;
