@@ -105,9 +105,10 @@ nav {
     justify-content: center;
 }
 
-.indexCategory__btn {
+#page-index__create-link,
+#page-index__boxes-link {
     font-family: 'Amatic SC', cursive;
-    font-size: 2rem;
+    font-size: 1rem;
     border: none;
     border-radius: 5px;
     color: white;
