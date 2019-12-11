@@ -1,5 +1,6 @@
 :root {
-    --color-primary: #6e2142;
+    --color-primary: #6e2142f6;
+    --color-primary-trans: #6e2142b2;
     --color-light: #943855;
     --color-warm: #e16363;
     --color-bright: #271a05;
@@ -110,7 +111,7 @@ nav {
     border: none;
     border-radius: 5px;
     color: white;
-    background-color: #e16363a0;
+    background-color: var(--color-primary-trans);
     /* margin: 1rem; */
     width: max-content;
     padding: 1em;
