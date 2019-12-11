@@ -9,6 +9,7 @@
 
 html {
     background: url('./img/background.png');
+    background-attachment: fixed;
     font-family: 'Acme', sans-serif;
     width: 100vw;
     box-sizing: border-box;
