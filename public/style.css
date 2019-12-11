@@ -90,19 +90,29 @@ nav {
     padding: .4rem;
 }
 
-.indexCategory {
+#page-index__create-link-container,
+#page-index__boxes-link-container {
     margin-bottom: 2rem;
     width: 100vw;
     height: 30vh;
 
     background: url('./img/fruitbox.jpg');
-    background-size: cover;
     background-position: center;
 
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+}
+
+#page-index__create-link-container {
+    background-image: url('./img/fruitbox2.png')
+}
+
+#page-index__boxes-link-container {
+    background-image: url('./img/fruitbox.png')
 }
 
 #page-index__create-link,
