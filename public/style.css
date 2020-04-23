@@ -34,16 +34,16 @@ nav {
     margin-bottom: 1rem;
 }
 
-.navBtn {
+.cart-btn {
     background-color: var(--color-primary);
     border-width: 0;
     border-radius: 5px;
     padding: .25rem;
     margin-top: 1rem;
-    margin-right: 1rem;
+    margin-right: 2rem;
 }
 
-.navBtn__img {
+.cart-btn__img {
     width: 2.5rem;
 }
 
