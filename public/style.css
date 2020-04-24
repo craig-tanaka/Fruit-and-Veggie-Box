@@ -35,16 +35,16 @@ nav {
 }
 
 .cart-btn {
-    background-color: var(--color-primary);
-    border-width: 0;
+    background-color: transparent;
+    border-width: 1px;
     border-radius: 5px;
-    padding: .25rem;
+    padding: .1rem;
     margin-top: 1rem;
-    margin-right: 2rem;
+    margin-right: .5rem;
 }
 
 .cart-btn__img {
-    width: 2.5rem;
+    width: 2rem;
 }
 
 /* #endregion --- Nav --- */
@@ -87,33 +87,32 @@ nav {
     border-width: 1px;
     width: 90vw;
     margin: 5vw;
-    margin-bottom: 1rem;
-    padding: .4rem;
+    margin-bottom: .75rem;
+    padding: .5rem;
 }
 
 #page-index__create-link-container,
 #page-index__boxes-link-container {
-    margin-bottom: 2rem;
     width: 100vw;
-    height: 30vh;
-
-    background: url('./img/fruitbox.jpg');
+    height: 12rem;
+    margin-bottom: .3rem;
+    border-radius: 2px;
     background-position: center;
 
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-size: 80%;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
-#page-index__create-link-container {
-    background-image: url('./img/fruitbox2.png')
+#page-index__boxes-link-container {
+    background-image: url('./img/fruits.jpg')
 }
 
-#page-index__boxes-link-container {
-    background-image: url('./img/fruitbox.png')
+#page-index__create-link-container {
+    background-image: url('./img/fru.jpg')
 }
 
 #page-index__create-link,
@@ -127,5 +126,5 @@ nav {
     background-color: var(--color-primary-trans);
     /* margin: 1rem; */
     width: max-content;
-    padding: 1em;
+    padding: .5em;
 }
