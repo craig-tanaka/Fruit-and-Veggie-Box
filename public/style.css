@@ -36,11 +36,14 @@ nav {
 
 .cart-btn {
     background-color: transparent;
-    border-width: 1px;
+    border: 1px solid var(--color-primary);
     border-radius: 5px;
     padding: .1rem;
-    margin-top: 1rem;
+    margin-top: .5rem;
     margin-right: .5rem;
+
+    display: flex;
+    align-items: center;
 }
 
 .cart-btn__img {
