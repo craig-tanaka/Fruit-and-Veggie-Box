@@ -126,7 +126,7 @@ nav {
     border: none;
     border-radius: 5px;
     color: white;
-    background-color: var(--color-primary-trans);
+    /* background-color: var(--color-primary-trans); */
     /* margin: 1rem; */
     width: max-content;
     padding: .5em;
