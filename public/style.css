@@ -319,13 +319,13 @@ nav {
 
     #page-index__boxes-link-container,
     #page-index__create-link-container {
-        width: 25rem;
+        width: 20rem;
         height: 12rem;
         border-radius: 5px;
     }
 
     #page-index__boxes-link-container {
-        margin-right: 2rem;
+        margin-right: 1rem;
     }
 
     /* ------Browse-Box------ */
