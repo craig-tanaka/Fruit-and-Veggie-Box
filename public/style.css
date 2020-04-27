@@ -33,6 +33,14 @@ main {
 }
 
 /* #region Index */
+.mobile-display {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
 /* #region --- Nav --- */
 nav {
     display: flex;
@@ -105,11 +113,18 @@ nav {
 /* #endregion Search */
 
 /* #region Main */
+.mobile-display main {
+    flex: 1;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 #page-index__create-link-container,
 #page-index__boxes-link-container {
     width: 100vw;
-    height: 12rem;
-    margin-bottom: .3rem;
+    height: 45%;
     border-radius: 2px;
     background-position: center;
 
@@ -122,7 +137,8 @@ nav {
 }
 
 #page-index__boxes-link-container {
-    background-image: url('./img/fruits.jpg')
+    background-image: url('./img/fruits.jpg');
+    margin-bottom: 1rem;
 }
 
 #page-index__create-link-container {
@@ -144,6 +160,12 @@ nav {
 }
 
 /* #endregion Main */
+
+.mobile-display footer {
+    text-align: center;
+    padding-bottom: .6rem;
+}
+
 /* #endregion Index */
 
 
