@@ -33,6 +33,10 @@ footer {
     display: none;
 }
 
+p {
+    margin: 0;
+}
+
 main {
     font-family: 'Amatic SC', cursive;
 }
@@ -335,6 +339,54 @@ nav {
     }
 
     /* ------Browse-Box------ */
+
+
+    /* ------Recommended-Box------ */
+    .recommended-boxes {
+        margin-top: 2rem;
+        ;
+    }
+
+    .recommended-row {
+        display: flex;
+    }
+
+    .recommended-box {
+        margin-right: 1rem;
+        /* border: 1px solid rgba(128, 128, 128, 0.473); */
+        border-radius: 5px;
+        padding: 1rem 0.25rem;
+        cursor: pointer;
+    }
+
+    .recommended-box:hover {
+        border: 1px solid rgba(128, 128, 128, 0.473);
+    }
+
+    .recommeded-box-img {
+        width: 12rem;
+    }
+
+    .recommended-box-details {
+        display: flex;
+        justify-content: space-around;
+        align-items: baseline;
+        width: 100%;
+        margin-top: -.5em;
+    }
+
+    .recommended-box-title {
+        font-family: Acme, sans-serif;
+        color: gray;
+    }
+
+    .recommended-box-price {
+        color: var(--color-warm);
+        font-size: 1.25em;
+        font-weight: bold;
+    }
+
+    /* ------Recommended-Box------ */
     /* _________________Main_______________________ */
 }
 
