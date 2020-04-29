@@ -465,6 +465,10 @@ nav {
 }
 
 @media (min-width: 1000px) {
+    body {
+        max-height: 1200px;
+    }
+
     .search {
         width: 40rem;
     }
@@ -642,6 +646,10 @@ nav {
 }
 
 @media (min-width: 1450px) {
+    body {
+        max-height: 1400px;
+    }
+
     .search {
         width: 62rem;
     }
@@ -690,6 +698,7 @@ nav {
 @media (min-width: 1660px) {
     body {
         font-size: 2rem;
+        max-height: 1800px;
     }
 
     .brand__head {
@@ -781,6 +790,16 @@ nav {
 
 @media (min-width: 2450px) {
     .recommended-boxes {
+        margin-right: 30rem;
+    }
+}
+
+@media(min-width: 2600px) {
+    .recommeded-box-img {
+        width: 28rem;
+    }
+
+    .pc-main {
         margin-right: 30rem;
     }
 }
