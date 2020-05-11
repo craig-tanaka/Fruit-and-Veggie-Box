@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Fruit and Veggie Box</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Acme|Amatic+SC&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <!-- Todo make cart img white n backgrnd red -->
+    <!-- Todo change brand o img to combat FLOC -->
+    <div class="mobile-display">
+        <header>
+            <nav>
+                <a href="./cart.html" class="cart-btn">
+                    <img src="./img/cart-vector-white.png" class="cart-btn__img" />
+                </a>
+            </nav>
+            <div class="brand">
+                <h1 class="brand__head">Fruit</h1>
+                <p class="brand__subtitle">& Veggie Box</p>
+            </div>
+            <input type="text" class="search" placeholder="Search Products" />
+        </header>
+        <main>
+            <!-- <h2>Browse By Types</h2> -->
+            <div id="page-index__boxes-link-container">
+                <a id="page-index__boxes-link" href="./boxes.html">Browse Boxes</a>
+            </div>
+            <div id="page-index__create-link-container">
+                <a id="page-index__create-link" href="./boxes.html">Create Your Own Box</a>
+            </div>
+        </main>
+        <footer>
+            <small>&copy; Copyright 2020, Fruit & Veggie Box.</small>
+            <small>
+                <center>All Rights Reserved</center>
+            </small>
+        </footer>
+    </div>
+
+    <div class="pc-display">
+        <aside class="pc-sidebar">
+            <div class="brand">
+                <h1 class="brand__head">Fruit</h1>
+                <p class="brand__subtitle">& Veggie Box</p>
+            </div>
+            <nav class="pc-nav">
+                <a class="nav-link" href="">Create a Box</a>
+                <a class="nav-link" href="">Our Boxes</a>
+                <a class="nav-link" href="">Sign-In \ Register</a>
+                <a class="nav-link" href="">Your Cart</a>
+                <a class="nav-link" href="">Your Orders</a>
+            </nav>
+            <img src="./img/aside.png" alt="" class="aside-img" />
+            <footer>
+                <small>&copy; Copyright 2020, Fruit & Veggie Box.</small>
+                <small>
+                    <center>All Rights Reserved</center>
+                </small>
+            </footer>
+        </aside>
+        <main class="pc-main">
+            <header class="pc-header">
+                <input type="text" class="search" placeholder="Search Products" />
+                <a href="./cart.html" class="cart-btn">
+                    <img src="./img/cart-vector-white.png" class="cart-btn__img" />
+                </a>
+            </header>
+            <section class="browse-type-selection">
+                <h2>Browse By Types</h2>
+                <div class="browse-types-container">
+                    <div id="page-index__boxes-link-container">
+                        <a id="page-index__boxes-link" href="./boxes.html">Browse Boxes</a>
+                    </div>
+                    <div id="page-index__create-link-container">
+                        <a id="page-index__create-link" href="./boxes.html">Create Your Own Box</a>
+                    </div>
+                </div>
+            </section>
+            <section class="recommended-boxes">
+                <h2>Recommended For You</h2>
+                <div class="recommended-body">
+                    <div class="recommended-row">
+                        <div class="recommended-box">
+                            <img src="./img/rec-boxes/standard.png" alt="" class="recommeded-box-img" />
+                            <div class="recommended-box-details">
+                                <p class="recommended-box-title">
+                                    Standard Box
+                                </p>
+                                <p class="recommended-box-price">$180.00</p>
+                            </div>
+                        </div>
+                        <div class="recommended-box">
+                            <img src="./img/rec-boxes/breakfast.png" alt="" class="recommeded-box-img" />
+                            <div class="recommended-box-details">
+                                <p class="recommended-box-title">
+                                    Breakfast Box
+                                </p>
+                                <p class="recommended-box-price">$140.00</p>
+                            </div>
+                        </div>
+                        <div class="recommended-box">
+                            <img src="./img/rec-boxes/Delux.png" alt="" class="recommeded-box-img" />
+                            <div class="recommended-box-details">
+                                <p class="recommended-box-title">
+                                    Deluxe Box
+                                </p>
+                                <p class="recommended-box-price">$190.00</p>
+                            </div>
+                        </div>
+                        <div class="recommended-box">
+                            <img src="./img/rec-boxes/standard.png" alt="" class="recommeded-box-img" />
+                            <div class="recommended-box-details">
+                                <p class="recommended-box-title">
+                                    Standard Box
+                                </p>
+                                <p class="recommended-box-price">$180.00</p>
+                            </div>
+                        </div>
+                        <div class="recommended-box">
+                            <img src="./img/rec-boxes/breakfast.png" alt="" class="recommeded-box-img" />
+                            <div class="recommended-box-details">
+                                <p class="recommended-box-title">
+                                    Breakfast Box
+                                </p>
+                                <p class="recommended-box-price">$140.00</p>
+                            </div>
+                        </div>
+                        <div class="recommended-box">
+                            <img src="./img/rec-boxes/Delux.png" alt="" class="recommeded-box-img" />
+                            <div class="recommended-box-details">
+                                <p class="recommended-box-title">
+                                    Deluxe Box
+                                </p>
+                                <p class="recommended-box-price">$190.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="/__/firebase/7.14.3/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+             https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="/__/firebase/7.14.3/firebase-analytics.js"></script>
+    <script src="/__/firebase/7.14.2/firebase-auth.js"></script>
+    <script src="/__/firebase/7.14.2/firebase-firestore.js"></script>
+    <script src="/__/firebase/7.14.2/firebase-storage.js"></script>
+
+    <!-- Initialize Firebase -->
+    <script src="/__/firebase/init.js"></script>
+</body>
+
+</html>
